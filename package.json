@@ -1,0 +1,34 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "NODE-AUTH1-PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinJHealy/node-auth1-project.git"
+  },
+  "author": "Austin Healy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinJHealy/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/AustinJHealy/node-auth1-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "helmet": "^4.1.1",
+    "knex": "^0.21.8",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  }
+}
